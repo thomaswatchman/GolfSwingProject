@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# Mac
+.DS_Store
+
+# Videos
+*.mp4
+*.mov
+*.avi
+
+# Datasets
+data/
+datasets/
+
+# ML models
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build files
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/

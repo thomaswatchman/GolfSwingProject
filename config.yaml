@@ -1,0 +1,24 @@
+video:
+    fps: 30
+    resolution: [1280, 720]
+    input_device: 0 # 0 = webcam, or path to video file
+
+pose:
+    model_complexity: 2 # 0=lite, 1=full, 2=heavy
+    min_detection_confidence: 0.5
+    min_tracking_confidence: 0.5
+    smooth_landmarks: true
+
+analysis:
+    key_phases:
+        - address
+        - backswing_top
+        - downswing
+        - impact
+        - follow_through
+    smoothing_window: 5 # frames for angle smoothing
+
+output:
+    save_annotated_video: true
+    save_csv: true
+    output_dir: outputs/
