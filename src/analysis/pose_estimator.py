@@ -2,9 +2,6 @@
 pose_estimator.py
 Wraps MediaPipe Pose Landmarker (Tasks API — mediapipe >= 0.10)
 to detect and track body landmarks per frame.
-
-The old mp.solutions.pose API was removed in mediapipe 0.10.x on macOS/Apple Silicon.
-This module uses the new mediapipe.tasks API instead.
 """
 
 from __future__ import annotations
